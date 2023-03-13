@@ -1,7 +1,7 @@
 ## Chapter 05 – Layout View
 
-### 5.1.Buat file baru app.blade.php.
-Buat file baru app.blade.php dan isi dengan kode berikut.
+### 5.1. Buat file baru app.blade.php.
+Buat file baru app.blade.php di dalam direktori resources/views/layouts/ dan isi dengan kode berikut.
 ```blade
 <!doctype html>
 
@@ -49,7 +49,7 @@ aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navi
 </html>
 
 ```
-### 5.2.Hapus semua kode yang ada di welcome.blade.php.
+### 5.2. Hapus semua kode yang ada di welcome.blade.php.
 Hapus semua kode yang ada di resources/views/welcome.blade.php dan isi dengan kode berikut.
 ```blade
 @extends('layouts.app')
@@ -62,7 +62,7 @@ Welcome to the application
 @endsection
 
 ```
-### 5.3.Buat folder css di bawah direktori public.
+### 5.3. Buat folder css di bawah direktori public.
 Buat folder css di bawah direktori public/. Kemudian, di public/css , buat aplikasi file baru .css dan isi dengan yang berikut ini.
 ```css
 .bg-secondary {
